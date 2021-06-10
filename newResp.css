@@ -1,0 +1,21 @@
+/*************** Header ***************/
+.brandHeadingName{
+    
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+.menuButton{
+    width: 15%;
+   
+}
+.menuButtonContent{
+
+}
+.headerDiv{
+    display: block;
+}
+/*
+
+*/
