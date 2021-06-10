@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+}
+.headerDiv{
+    display: flex;
+    
+}
+.headerDivLogoImg{    
+    width: 80%; 
+    margin-left: 10%;
+}
+.brandHeadingName{
+    font-size: 48px;
+    /* margin-top: 10px; */
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+   
+}
+
+/******************************************    NavBar     ********************************************************/
+
+.navBarDivContent{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    letter-spacing: .5;
+    /* margin-left: 25%; */
+    font-size: 17px;
+}
+.navigationDiv{
+    background-color: lightgray;
+    display: flex;
+}
+
+/************************************************* Intro *********************************************/
+.introParaHeading{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+
+.intro{
+    margin-bottom: 5%;
+    line-height: 1.7;
+}
+
+
+/******************************************* testimonial **************************************************************************************/
+
+.testimonialBG{
+    background-image: url(Images/testimonial-bg.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: fit-content;
+
+}
+.testimonialHeader{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.testimonialHeaderPara{
+    color: gray;
+}
+.testimonialContentDiv{
+    display: flex;
+}
+.testiPicOne{
+    width: 100%;
+    object-fit: contain;
+
+}
+.testiPicTwo{
+   width: 100%;
+}
+.testimonialContentPic{
+    margin-bottom: 8%;
+}
+.testimonials{
+    margin-bottom: 10%;
+}
+/************************************************* Footer **********************************************************/
+
+.socialNetworks{
+    /* border-radius: 50%; */
+}
+.icons{
+    /* font-size: 30px;
+    color: rgb(94, 183, 241); */
+    
+    /* color: rgb(94, 183, 241); */
+    font-size: 35px;
+    margin: 0 6px;
+    
+
+}
+.socialNetworks{
+    margin-top: 3%;
+}
+.footerDiv{
+    text-align: center;
+    background-color: lightgrey;
+}
+.footer{
+    color: gray;
+}
+.deepSense{
+    color: black;
+}
+
+/******************************************    About Us     *************************************************************************************************
+##########################################################################################################################################################
+*********************************************************************************************************************************************************/
+
+.AUPic{
+    object-fit: contain;
+    
+}
+.AUHeading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    
+}
+
+.AUPara{
+    line-height: 1.7;
+}
+
+
+/******************************************    Offer    *************************************************************************************************
+##########################################################################################################################################################
+*********************************************************************************************************************************************************/
+
+.offerdiv{
+    height: 74%;
+   
+}
+.offerContent{
+    padding-top: 15%;
+    text-align: center;
+}
+
+
+/******************************************    Contact Us    *************************************************************************************************
+##########################################################################################################################################################
+*********************************************************************************************************************************************************/
+
+.contactCard{
+    border: 1px solid gray;
+    /* margin:0 2%; */
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 3%;
+    gap: 2%;
+}
+.CUDiv{
+    /* margin: 0 10%; */
+    margin-top: 3%;
+}
+.contactCardContent{
+    line-height: 1.5;
+}
