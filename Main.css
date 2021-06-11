@@ -32,6 +32,10 @@ body{
     background-color: lightgray;
     display: flex;
 }
+.headerDiv{
+    display: flex;
+    justify-content: space-between;
+}
 
 /************************************************* Intro *********************************************/
 .introParaHeading{
@@ -115,8 +119,12 @@ body{
 
 .AUPic{
     object-fit: contain;
-    
+    margin-bottom: 10%;
+    /* width: 520px;
+    height: 500px; */
 }
+
+    
 .AUHeading{
     text-align: center;
     margin-top: 8%;
@@ -161,4 +169,8 @@ body{
 }
 .contactCardContent{
     line-height: 1.5;
+}
+
+.Link{
+    color: rgb(50, 115, 201);
 }
