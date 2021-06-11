@@ -34,10 +34,10 @@
     
     /********************** About us *******************************************/
 
-    .AUPic{
+    /* .AUPic{
         width:325px;
         height:325px;
-    }
+    } */
     
 }
 /*/##############################################################################################################################################*/
@@ -79,8 +79,9 @@
 
     .AUPic{
         justify-content: space-evenly;
-        width: 520px;
-        height: 420px;
+        margin-bottom: 5%;
+        /* width: 520px;
+        height: 420px; */
     }
     .AUPicDiv{
         justify-content: space-evenly;
