@@ -1,21 +1,89 @@
 /*************** Header ***************/
-.brandHeadingName{
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+
+    /**********************contactus*******************************************/
+
+    .headerDiv{
+        display: block !important;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .headerDivLogoImg{
+        display: none;
+    }
+
+    .mobView{
+        display: block;
+    }
+    .submitButton{
+        width: 100%;
+    }
+/********************** index *******************************************/
+
+    .testimonialDivContent{
+        display: flex;
+        flex-flow: column-reverse ;
+    }
+    .testimonialDivContent{
+        /* display: block; */
+    }
+
     
-    color: blue;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
+    /********************** About us *******************************************/
 
+    /* .AUPic{
+        width:325px;
+        height:325px;
+    } */
+    
 }
-.menuButton{
-    width: 15%;
-   
-}
-.menuButtonContent{
+/*/##############################################################################################################################################*/
+  
+/**************** Tab ************/
+@media screen and (min-width:768px) and (max-width:991px) {
 
-}
-.headerDiv{
-    display: block;
-}
-/*
 
-*/
+    /**********************contactus*******************************************/
+
+    .headerDiv{
+        /* display: block !important; */
+        /* text-align: center; */
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .headerDivLogoImg{
+        width: 100% !important;
+
+    }
+
+    /* .mobView{
+        display: block;
+    } */
+    .submitButton{
+        width: 100%;
+    }
+/********************** index *******************************************/
+
+    .testimonialDivContent{
+        display: flex;
+        flex-flow: column-reverse ;
+        margin-bottom: 5%;
+    }
+    
+    /********************** About us *******************************************/
+
+    .AUPic{
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+        /* width: 520px;
+        height: 420px; */
+    }
+    .AUPicDiv{
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+    }
+    
+}
