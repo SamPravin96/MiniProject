@@ -119,8 +119,9 @@ body{
 
 .AUPic{
     object-fit: contain;
-    width: 520px;
-    height: 500px;
+    margin-bottom: 10%;
+    /* width: 520px;
+    height: 500px; */
 }
 
     
