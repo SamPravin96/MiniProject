@@ -70,11 +70,9 @@
     .testimonialDivContent{
         display: flex;
         flex-flow: column-reverse ;
+        margin-bottom: 5%;
     }
-    .testimonialDivContent{
-        /* display: block; */
-    }
-
+    
     /********************** About us *******************************************/
 
     .AUPic{
